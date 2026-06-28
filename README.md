@@ -188,8 +188,8 @@ python run.py --fuente pdf --pdf data/raw/boletin_enemdu_anual_2025.pdf
 ### Clonar el repositorio
 
 ```bash
-git clone {{PENDIENTE_URL_REPOSITORIO}}
-cd "Tarea - El Quantificador"
+git clone https://github.com/jdsotomayorjimenez/elquantificador_informalidad_ecu.git
+cd elquantificador_informalidad_ecu
 ```
 
 ### Crear entorno e instalar dependencias
@@ -294,6 +294,7 @@ Tarea - El Quantificador/
 │   ├── extraer_datos.py                   # Extracción PDF → CSV (Tablas 8 y 9)
 │   ├── validar_datos.py                   # Validaciones de consistencia
 │   └── grafico.py                         # Generación de la visualización
+├── pruebas/                               # Capturas de cumplimiento de requisitos del concurso
 ├── tests/
 │   ├── test_extraccion.py                 # Prueba el parser contra texto real del PDF
 │   └── fixture_texto_pdf.txt              # Texto crudo del PDF para la prueba
@@ -327,6 +328,42 @@ Tarea - El Quantificador/
 | Reproducibilidad | Entorno virtual `.venv`, scripts de setup multiplataforma |
 | Control de versiones | Git y GitHub                                              |
 | IDE sugerido | PyCharm o VsCode                                          |
+
+---
+
+## Pruebas de participación
+
+Requisitos del concurso **Ecuador Quantificado 2026** completados. Las capturas se encuentran en la carpeta [`pruebas/`](pruebas/).
+
+### Requisito 1 - Llenar el formulario de inscripción
+
+Formulario completado el 27 de junio de 2026.
+
+![Formulario de inscripción enviado](pruebas/0.png)
+
+### Requisito 2 - Seguir a @elquantificador y @laboratoriolide en Instagram
+
+![Siguiendo a El Quantificador en Instagram](pruebas/1.png)
+
+![Siguiendo a Laboratorio LIDE en Instagram](pruebas/2.png)
+
+### Requisito 3 - Seguir en una plataforma adicional: X / Twitter
+
+![Siguiendo a El Quantificador en X](pruebas/3.png)
+
+![Siguiendo a Laboratorio LIDE en X](pruebas/4.png)
+
+### Requisito 4 - Dar like y compartir el post oficial del concurso
+
+![Like y repost del post oficial en X](pruebas/5.png)
+
+![Like y compartir del post oficial en Instagram](pruebas/6.png)
+
+### Requisito 5 - Incluir datos y pasos para reproducir en un repositorio público
+
+Repositorio público: https://github.com/jdsotomayorjimenez/elquantificador_informalidad_ecu
+
+![Repositorio público en GitHub](pruebas/7.png)
 
 ---
 
@@ -384,6 +421,7 @@ Proyecto desarrollado por **Juan Diego Sotomayor**.
 | --- |------------------------------------------|
 | Universidad | UEES                                     |
 | Carrera | Ingeniería en Ciencias de la Computación |
+| Repositorio | https://github.com/jdsotomayorjimenez/elquantificador_informalidad_ecu |
 
 
 ---
