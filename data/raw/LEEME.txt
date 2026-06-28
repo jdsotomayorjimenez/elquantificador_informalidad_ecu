@@ -1,0 +1,18 @@
+Coloca aqui el PDF oficial del INEC con este nombre:
+
+    boletin_enemdu_anual_2025.pdf
+
+Descarga:
+  https://www.ecuadorencifras.gob.ec/documentos/web-inec/EMPLEO/2025/anual/Boletin_tecnico_anual_enero-diciembre_2025.pdf
+
+Pagina oficial:
+  https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/
+
+El PDF NO se incluye en el repositorio (es material del INEC, licencia CC BY 4.0;
+ademas pesa varios MB). El flujo puede descargarlo solo con:
+
+    python run.py --fuente pdf --url "https://www.ecuadorencifras.gob.ec/documentos/web-inec/EMPLEO/2025/anual/Boletin_tecnico_anual_enero-diciembre_2025.pdf"
+
+o, si ya lo descargaste a esta carpeta:
+
+    python run.py --fuente pdf --pdf data/raw/boletin_enemdu_anual_2025.pdf

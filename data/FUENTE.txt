@@ -1,0 +1,38 @@
+FUENTE DE LOS DATOS
+===================
+
+Instituto Nacional de Estadistica y Censos (INEC), Ecuador.
+Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU), Anual 2025.
+Boletin Tecnico N 03-2026-ENEMDU (febrero 2026).
+
+PDF oficial:
+https://www.ecuadorencifras.gob.ec/documentos/web-inec/EMPLEO/2025/anual/Boletin_tecnico_anual_enero-diciembre_2025.pdf
+
+Portal de estadisticas laborales:
+https://www.ecuadorencifras.gob.ec/estadisticas-laborales-enemdu/
+
+Tablas usadas dentro del boletin:
+- Tabla 8: Tasa de empleo no remunerado a nivel provincial, anos 2024 y 2025
+           (% respecto a la PEA).
+- Tabla 9: Poblacion con empleo en el sector informal a nivel provincial,
+           anos 2024 y 2025 (% respecto al total de personas con empleo).
+
+Tasa nacional de informalidad 2025 (ponderada, usada como linea de referencia): 51,5%.
+
+Licencia: Creative Commons Atribucion 4.0 Internacional (CC BY 4.0).
+Cita sugerida: INEC. (2026). Principales resultados mercado laboral - ENEMDU.
+
+ARCHIVOS DE DATOS EN ESTE PROYECTO
+----------------------------------
+- data/enemdu_anual_2025_provincial.csv : CSV de REFERENCIA, verificado a mano
+  contra el PDF. Es la fuente de verdad del analisis.
+- data/enemdu_desde_pdf.csv             : CSV generado por src/extraer_datos.py
+  a partir del PDF oficial. Debe coincidir con el de referencia (lo valida el test).
+- data/raw/boletin_..._2025.pdf         : PDF oficial (no incluido; ver LEEME.txt).
+
+FECHA DE DESCARGA: ____________  (completar al verificar)
+
+NOTA DE VERIFICACION (IMPORTANTE):
+Los valores del CSV de referencia fueron transcritos de las Tablas 8 y 9 del PDF.
+Antes de enviar el trabajo, contrasta cada cifra contra el PDF oficial y anota la
+fecha de descarga.
