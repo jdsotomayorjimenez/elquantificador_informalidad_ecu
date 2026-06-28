@@ -8,8 +8,5 @@
 __pycache__/
 *.py[cod]
 
-# PDF oficial del INEC (no se versiona; ver data/raw/LEEME.txt)
-data/raw/*.pdf
-
 # Artefactos de depuración generados en tiempo de ejecución
 output/debug/
