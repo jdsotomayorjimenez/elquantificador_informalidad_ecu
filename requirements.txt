@@ -1,0 +1,6 @@
+# Probado con Python 3.11+. Si tu entorno es mas antiguo, puedes relajar
+# las versiones (p. ej. pandas>=2.0, matplotlib>=3.7, numpy>=1.24, pdfplumber>=0.10).
+pandas==3.0.2
+matplotlib==3.10.8
+numpy==2.4.4
+pdfplumber==0.11.9
